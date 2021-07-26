@@ -1,0 +1,37 @@
+ mkdir TestTask
+cd TestTask
+pwd
+git init
+notepad wlecome.java
+notepad sub.java
+notepad text.java
+ls
+git status
+git checkout -b Dev
+git status
+git add wlewcome.java
+git commit -m "welcome.java Added"
+git checkout master
+git checkout -b Test
+git status
+git add sub.java
+git commit -m "sub.java Added"
+git add text.java
+git commit -m "text.java Added"
+git status
+git checkout master
+git merge Dev
+git merge Test
+git log
+git remote add origin https://github.com/shashank221018/TestTask.git
+git push -u origin master
+git clone https://github.com/shashank221018/TestTask.git
+notepad text.java
+git status
+git add text.java
+git commit -m "text.java added"
+push -u origin master
+notepad Solution.txt
+git add Solution.txt
+git commit -m "Solution.txt added"
+
